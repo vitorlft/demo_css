@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Oswald:wght@400;500;600&display=swap');
+
+
+
+h1 {
+    /* background-color: green; */
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    /* color: blue; */
+    color: #294f6d;
+    /* color: rgb(170, 185, 31); */
+    /* color: rgba(170, 185, 31, 0.5); */
+}
+
+.description {
+    color: orange;
+    line-height: 25px;
+}
+
+#favorite {
+    color: goldenrod;
+    font-style: italic;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+}
+
+.descont {
+    color: #0c5e04;
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* ESTILIZAÇÃO NO CSS */
+/* Alterar elementos tags: "nome da tag" */
+/* Alterar elementos de classe: ".nomedaclasse" */
+/* Alterar elementos de id: "#nomedoid" */
+/* Alterar todos os elementos do documento: "*" */
+
+/* CONFIGURAÇÃO DE CORES */
+/* Por nome da cor */
+/* Por código hexadecimal */
+/* Por código RGB (red, green, blue) */
+/* Por código RGBA (red, green, blue, alpha). O alpha é a opacidade */
+
+/* CONFIGURAÇÃO DE FONTES */
+/* Font-size: muda o tamanho da fonte */
+/* Font-weight: muda o peso da fonte */
+/* Font-style: muda o estilo da fonte */
+/* Font-family: muda a fonte */
+/* Line-height: muda a altura da linha */
+
+/* Importações por boa prática são feitas no topo do documento CSS */
+
+/* Hierarquia das classes: id > class > tag */
+/* Caso seja o mesmo elemento, por exemplo duas classes, o documento irá priorizar a ultima estilização feita, ou seja, a que está mais embaixo de todas */
